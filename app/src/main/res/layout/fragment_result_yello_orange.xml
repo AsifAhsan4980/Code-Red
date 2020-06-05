@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/text_view_background"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Our evaluation matrix(based on Machine Larning Algorithm) suggested, you are not in a life-threatening condition to initiate an emergency distress signal! \n\nPlease relax and ask for detail clinical advice from Medical Helth Care Professionals in our Contacts Directoris"
+        android:textColor="@color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/emergency_contacts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Emergency Contacts"
+        android:onClick="gotoEmergencyPage"
+        android:textColor="@color/white"
+        app:cornerRadius="18dp"
+        android:layout_marginTop="16dp"
+       />
+
+
+</LinearLayout>
